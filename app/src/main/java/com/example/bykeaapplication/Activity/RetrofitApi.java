@@ -22,13 +22,14 @@ public class RetrofitApi extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_retrofit_api);
         textView = findViewById(R.id.txt_api);
 
-        Retrofit retrofit=new Retrofit.Builder()
+        Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("https://reqres.in")
                 .addConverterFactory(GsonConverterFactory.create())
-                . build();
+                .build();
 
         RequestUser requestUser = retrofit.create(RequestUser.class);
 
@@ -44,5 +45,5 @@ public class RetrofitApi extends AppCompatActivity {
             }
         });
 
-        }
+    }
     }

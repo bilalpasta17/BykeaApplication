@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/nav_MissedCall"
+        android:title="Missed Call" />
+
+    <item
+        android:id="@+id/nav_Bookings"
+        android:title="Bookings" />
+
+    <item
+        android:id="@+id/nav_Wallet"
+        android:title="Wallet" />
+
+    <item
+        android:id="@+id/nav_Rates"
+        android:title="Rates" />
+
+    <item
+        android:id="@+id/nav_HowItWorks"
+        android:title="How it Works" />
+
+    <item
+        android:id="@+id/nav_ContactUs"
+        android:title="Contact Us" />
+
+
+</group>
+
+
+
+</menu>

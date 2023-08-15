@@ -2,8 +2,16 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.BykeaApplication" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/green</item>
     </style>
 
-    <style name="Theme.BykeaApplication" parent="Base.Theme.BykeaApplication" />
+    <style name="Theme.BykeaApplication" parent="Base.Theme.BykeaApplication">
+        <!-- Customize your app's ActionBar style -->
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <!-- Set the background color for the ActionBar -->
+        <item name="android:background">@color/green</item>
+    </style>
 </resources>

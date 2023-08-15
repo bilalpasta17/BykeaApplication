@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">BykeaApplication</string>
     <string name="ab_hasil_krey_discount">Ab Hasil krey Discount</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="mini">MINI</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="apikey">AIzaSyCVadrNRSVOWOyXNTSWXi-kCM6O8pqz2gk\n</string>
+    <string name="blink">BLINK</string>
+    <string name="clockwise">ROTATE</string>
+    <string name="fade">FADE</string>
+    <string name="move">MOVE</string>
+    <string name="slide">SLIDE</string>
+    <string name="zoom">ZOOM</string>
+    <string name="stop_animation">STOP ANIMATION</string>
+    <string name="course_rating">Course Rating</string>
+    <string name="course_name">Course Name</string>
+
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
 </resources>
